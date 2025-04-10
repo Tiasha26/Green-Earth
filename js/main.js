@@ -34,10 +34,6 @@ const displayScrollElement = (element) => {
     element.classList.add('active');
 };
 
-const hideScrollElement = (element) => {
-    element.classList.remove('active');
-};
-
 const handleScrollAnimation = () => {
     scrollElements.forEach((el) => {
         if (elementInView(el, 100)) {
@@ -46,7 +42,8 @@ const handleScrollAnimation = () => {
     });
 };
 
-window.addEventListener('scroll', () => {
+// Only run the scroll animation once when the page loads
+document.addEventListener('DOMContentLoaded', () => {
     handleScrollAnimation();
 });
 

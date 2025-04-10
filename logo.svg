@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main circle (Earth) -->
+    <circle cx="100" cy="100" r="90" fill="#2ecc71" stroke="#27ae60" stroke-width="4"/>
+    
+    <!-- Leaf design -->
+    <path d="M100 40 C130 60, 140 90, 130 120 C120 150, 90 160, 70 150 C50 140, 40 110, 50 80 C60 50, 90 40, 100 40" 
+          fill="#27ae60" stroke="#229954" stroke-width="2"/>
+    
+    <!-- Text -->
+    <text x="100" y="180" font-family="Arial" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">
+        Green Earth
+    </text>
+</svg> 

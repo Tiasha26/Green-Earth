@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Circle representing Earth -->
+    <circle cx="25" cy="25" r="20" fill="#2ecc71"/>
+    <!-- Leaf overlay -->
+    <path d="M25 10 C35 15, 38 25, 35 35 C32 45, 20 45, 15 40 C10 35, 8 25, 12 15 C16 5, 25 10, 25 10" 
+          fill="#27ae60"/>
+    <!-- Text -->
+    <text x="60" y="32" font-family="Arial" font-size="24" fill="#2ecc71" font-weight="bold">
+        Green Earth
+    </text>
+</svg> 
